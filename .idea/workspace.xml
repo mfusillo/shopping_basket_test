@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abddab03-65ea-42b0-b95c-7948db5c8588" name="Default Changelist" comment="" />
+    <list default="true" id="abddab03-65ea-42b0-b95c-7948db5c8588" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/discounts/PercentageDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/ShoppingBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discounts/BOGOFDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discounts/IDiscountable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/discounts/IDiscountable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BOGOFDiscountTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +36,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Y1rUAY4Wh0usGBUXQ6gHtt3qHV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,7 +46,57 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RunManager" selected="JUnit.ShoppingBasketTest.cannot_get_percentage_discounted_amount">
+    <configuration name="BOGOFDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_basket_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BOGOFDiscountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.can_apply_percentage_discount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_basket_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="can_apply_percentage_discount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.can_get_percentage_discounted_amount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_basket_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="can_get_percentage_discounted_amount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.cannot_get_percentage_discounted_amount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_basket_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="cannot_get_percentage_discounted_amount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShoppingBasketTest.cannot_get_percentage_discounted_amount" />
+        <item itemvalue="JUnit.ShoppingBasketTest.can_get_percentage_discounted_amount" />
+        <item itemvalue="JUnit.ShoppingBasketTest.can_apply_percentage_discount" />
+        <item itemvalue="JUnit.BOGOFDiscountTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,5 +116,41 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1582122121714" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582124734609">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1582124734609" />
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom" timestamp="1582124961741">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582124961741" />
+    <state width="1238" height="210" key="GridCell.Tab.0.center" timestamp="1582124961739">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582124961739" />
+    <state width="1238" height="210" key="GridCell.Tab.0.left" timestamp="1582124961738">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582124961738" />
+    <state width="1238" height="210" key="GridCell.Tab.0.right" timestamp="1582124961740">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="210" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582124961740" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1582124555299">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582124555299" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1582124555297">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1582124555297" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1582124555297">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1582124555297" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1582124555298">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1582124555298" />
   </component>
 </project>
