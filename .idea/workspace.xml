@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abddab03-65ea-42b0-b95c-7948db5c8588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/discounts/PercentageDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/ShoppingBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/discounts/BOGOFDiscount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/discounts/BOGOFDiscount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/discounts/IDiscountable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/discounts/IDiscountable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BOGOFDiscountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/ShoppingBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/ShoppingBasket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/ShoppingBasket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +47,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingBasketTest.cannot_get_percentage_discounted_amount">
-    <configuration name="BOGOFDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShoppingBasketTest">
+    <configuration name="ShoppingBasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shopping_basket_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BOGOFDiscountTest" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.can_apply_bogof_discount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_basket_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="can_apply_bogof_discount" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,10 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingBasketTest" />
+        <item itemvalue="JUnit.ShoppingBasketTest.can_apply_bogof_discount" />
         <item itemvalue="JUnit.ShoppingBasketTest.cannot_get_percentage_discounted_amount" />
         <item itemvalue="JUnit.ShoppingBasketTest.can_get_percentage_discounted_amount" />
         <item itemvalue="JUnit.ShoppingBasketTest.can_apply_percentage_discount" />
-        <item itemvalue="JUnit.BOGOFDiscountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,22 +129,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1582124734609" />
-    <state width="1238" height="210" key="GridCell.Tab.0.bottom" timestamp="1582124961741">
+    <state width="1238" height="132" key="GridCell.Tab.0.bottom" timestamp="1582129380224">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582124961741" />
-    <state width="1238" height="210" key="GridCell.Tab.0.center" timestamp="1582124961739">
+    <state width="1238" height="132" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582129380224" />
+    <state width="1238" height="132" key="GridCell.Tab.0.center" timestamp="1582129380222">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582124961739" />
-    <state width="1238" height="210" key="GridCell.Tab.0.left" timestamp="1582124961738">
+    <state width="1238" height="132" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582129380222" />
+    <state width="1238" height="132" key="GridCell.Tab.0.left" timestamp="1582129380221">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582124961738" />
-    <state width="1238" height="210" key="GridCell.Tab.0.right" timestamp="1582124961740">
+    <state width="1238" height="132" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582129380221" />
+    <state width="1238" height="132" key="GridCell.Tab.0.right" timestamp="1582129380223">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582124961740" />
+    <state width="1238" height="132" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582129380223" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1582124555299">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

@@ -1,5 +1,7 @@
 package items;
 
+import discounts.IDiscountable;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
@@ -7,7 +9,7 @@ public class ShoppingBasket {
 
     private ArrayList<Item> items;
 
-    public ShoppingBasket(){
+    public ShoppingBasket(boolean customerHasLoyaltyCard){
         this.items = new ArrayList<Item>();
     }
 
@@ -21,6 +23,17 @@ public class ShoppingBasket {
             total += item.getCost();
         }
         return total;
+    }
+
+
+    public double applyDiscount(ArrayList<IDiscountable> discounts, ArrayList<Item> items, double total){
+        double discountedAmount = 0;
+
+        for(IDiscountable discount : discounts){
+            discountedAmount += discount.getDiscountedAmount(items, total);
+        }
+
+        return total - discountedAmount;
     }
 
 }
